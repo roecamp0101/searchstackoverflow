@@ -1,6 +1,6 @@
 # Search Stackoverflow App
 
-A test for verizon that I took *passed ;-)*
+A test for verizon that I took **passed ;-)**
 
 So...Be My guest and search stackoverflow...
 
