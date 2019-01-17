@@ -1,0 +1,28 @@
+.info-container{
+  -webkit-transition: all 1s ease-in;
+   -webkit-transform: scale(1);
+   transition: all 0.4s ease-in;
+   transform: scale(1);
+ }
+ .info-container:hover {
+   -webkit-transition: all 1s ease-in;
+    -webkit-transform: scale(1.1);
+    transition: all 0.4s ease-in;
+    transform: scale(1.1);
+  }
+
+
+@media (max-width: 576px) {
+  .info-container{
+    -webkit-transition: none;
+     -webkit-transform: none;
+     transition: none;
+     transform: none;
+   }
+   .info-container:hover {
+     -webkit-transition: none;
+      -webkit-transform: none;
+      transition: none;
+      transform: none;
+    }
+}
