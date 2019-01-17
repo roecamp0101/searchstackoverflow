@@ -4,7 +4,7 @@ A test for verizon that I took *passed ;-)*
 
 So...Be My guest and search stackoverflow...
 
-(https://s3.amazonaws.com/media.eremedia.com/uploads/2012/08/24111405/stackoverflow-logo-700x467.png)
+![alt tag](https://s3.amazonaws.com/media.eremedia.com/uploads/2012/08/24111405/stackoverflow-logo-700x467.png)
 
 
 #Instructions To View
