@@ -1,11 +1,16 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 pt-5">
-    <form>
+  <form #f="ngForm">
   <div class="form-group">
     <label for="exampleFormControlInput1">Search Stack Overflow Project</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Be My Guest, go ahead search" name="searchbox"
-    [(ngModel)]="searchTerm" (input)="getInfo()">
+    <input type="search" class="form-control" id="exampleFormControlInput1" placeholder="Be My Guest, go ahead search" name="searchbox"
+    [(ngModel)]="searchTerm" (input)="getInfo()"
+      ngModel
+      name="search"
+      required
+      #searching="ngModel">
+    <small class="text-danger lead" *ngIf="!searching.valid && searching.touched">Wooaah...You can't just click in Search Box...Search</small>
   </div>
 </form>
 
