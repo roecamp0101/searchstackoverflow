@@ -1,27 +1,24 @@
-# Stackoverflow
+# Search Stackoverflow App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+A test for verizon that I took *passed ;-)*
 
-## Development server
+So...Be My guest and search stackoverflow...
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+(https://s3.amazonaws.com/media.eremedia.com/uploads/2012/08/24111405/stackoverflow-logo-700x467.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#Instructions To View
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+    Make sure you have these installed
+        
+        node.js
+        git
+        
+    
+    Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) > 
+    
+    git clone https://github.com/roecamp0101/searchstackoverflow.git
+    
+    Open folder stackoverflow > npm install > npm start
+    
+    Run > index.html on local server to view app (IE. Adobe Brackets or Sublime Text)
