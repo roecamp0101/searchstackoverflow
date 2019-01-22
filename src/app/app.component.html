@@ -18,7 +18,7 @@
 
 <ul class="list-unstyled social-icons social-ul-list">
      <!-- looping through server infos data from server and limiting to only 12 results -->
-      <li class="my-5" *ngFor="let isv of infos  | slice:0:12 | filter: searchTerm">
+      <li class="my-5" *ngFor="let isv of infos | filter: searchTerm">
 
 
        <div appHighlight class="border border-left-0 py-4 border-secondary info-container">
