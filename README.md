@@ -19,6 +19,6 @@ So...Be My guest and search stackoverflow...
     
     git clone https://github.com/roecamp0101/searchstackoverflow.git
     
-    Open folder stackoverflow > npm install > npm start
+    Open folder searchstackoverflow > npm install > npm start
     
     Run > index.html on local server to view app (IE. Adobe Brackets or Sublime Text)
